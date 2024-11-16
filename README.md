@@ -13,7 +13,8 @@ This repository contains the code to reproduce the results mentioned in the [LaC
 - Saves the pruned model and tokenizer for further use.
 - Publishes the pruned model to the Hugging Face Hub.
 
-  Add image here TO-DO
+  <img src="https://github.com/YashwanthYS/11711_LaCo_Pruning/blob/main/imgs/LaCo_prune.png" alt="Pruning Pipeline" width="700"/>
+
 
 For pruning, we have adapted the code for our use based on the author's official code implementation [LaCo](https://github.com/yangyifei729/laco).
 
@@ -74,7 +75,8 @@ You can refer to the [notebook](https://github.com/YashwanthYS/11711_LaCo_Prunin
 - Evaluates the performance of pruned model on selected datasets.
 - Writes the output to a markdown and csv file.
 
-  Add image here TO-DO
+  <img src="https://github.com/YashwanthYS/11711_LaCo_Pruning/blob/main/imgs/LaCo_infer.png" alt="Inference Pipeline" width="700"/>
+
 
 ### Steps to Reproduce
 You can refer to the [notebook](https://github.com/YashwanthYS/11711_LaCo_Pruning/blob/main/experiments/llama-7B/OpenCompassEval_llama2_7b_Benchmarks.ipynb) which runs the evaluation on selected datasets using the pruned LLaMa2-7B model.
@@ -120,6 +122,8 @@ files.download('/path/to/output.zip')
 
 ### Sample Plots
 1. **Cosine Similarity between adjacent layer outputs**:
-   TO-DO Add image
+   <img src="https://github.com/YashwanthYS/11711_LaCo_Pruning/blob/main/imgs/cosine_similarities_7B_models.jpg" alt="Adj layer similarities" width="700"/>
+
 2. **RDSC Layer merge cosine similarity**:
-   TO-DO Add image
+   
+   <img src="https://github.com/YashwanthYS/11711_LaCo_Pruning/blob/main/imgs/rdsc_7b.jpg" alt="RDSC cosine similarities" width="700"/>
