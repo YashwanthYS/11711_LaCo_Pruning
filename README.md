@@ -80,7 +80,7 @@ You can refer to the [notebook](https://github.com/YashwanthYS/11711_LaCo_Prunin
   Add image here TO-DO
 
 ### Steps to Reproduce
-You can refer to the [notebook](https://github.com/YashwanthYS/11711_LaCo_Pruning/blob/main/experiments/llama-7B/OpenCompassEval_llama2_7b_Benchmarks.ipynb) which runs the evaluation on selected datasets using the pruned model.
+You can refer to the [notebook](https://github.com/YashwanthYS/11711_LaCo_Pruning/blob/main/experiments/llama-7B/OpenCompassEval_llama2_7b_Benchmarks.ipynb) which runs the evaluation on selected datasets using the pruned LLaMa2-7B model.
 1. **Install OpenCompass**:
    
  ```python
