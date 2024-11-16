@@ -112,3 +112,14 @@ from google.colab import files
 !zip -r /path/to/output.zip /content/opencompass/outputs
 files.download('/path/to/output.zip')
 ```
+
+## Plots
+  This component contains the part to reproduce the plots authors have implemented in the paper. It contains separate notebooks containing the code and detailed steps to generate plots related to
+  - [RDSC Layer Merge Similarity](https://github.com/YashwanthYS/11711_LaCo_Pruning/blob/main/plots/plot_RDSC_cosine.ipynb)
+  - [Cosine Similarity between outputs of successive layers](https://github.com/YashwanthYS/11711_LaCo_Pruning/blob/main/plots/plot_cosine_similarities.ipynb)
+
+### Sample Plots
+1. **Cosine Similarity between adjacent layer outputs**:
+   TO-DO Add image
+2. **RDSC Layer merge cosine similarity**:
+   TO-DO Add image
