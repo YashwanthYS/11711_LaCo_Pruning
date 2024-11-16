@@ -122,8 +122,8 @@ files.download('/path/to/output.zip')
 
 ### Sample Plots
 1. **Cosine Similarity between adjacent layer outputs**:
-   <img src="https://github.com/YashwanthYS/11711_LaCo_Pruning/blob/main/imgs/cosine_similarities_7B_models.jpg" alt="Adj layer similarities" width="700"/>
+   <img src="https://github.com/YashwanthYS/11711_LaCo_Pruning/blob/main/imgs/cosine_similarities_7B_models.jpg" alt="Adj layer similarities" width="550"/>
 
 2. **RDSC Layer merge cosine similarity**:
    
-   <img src="https://github.com/YashwanthYS/11711_LaCo_Pruning/blob/main/imgs/rdsc_7b.jpg" alt="RDSC cosine similarities" width="700"/>
+   <img src="https://github.com/YashwanthYS/11711_LaCo_Pruning/blob/main/imgs/rdsc_7b.jpg" alt="RDSC cosine similarities" width="550"/>
