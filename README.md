@@ -45,20 +45,17 @@ You can refer to the [notebook](https://github.com/YashwanthYS/11711_LaCo_Prunin
    THRESHOLD = 0.65
    ```
 
-4. **Define the Layer Merging Function**:
-   Use the `merge_layers_return_model` function to merge layers.
+4. **Iteratively Prune Layers**:
+   Reduce the model's layers while maintaining a similarity above the threshold using the code.
 
-5. **Iteratively Prune Layers**:
-   Reduce the model's layers while maintaining a similarity above the threshold.
-
-6. **Save the Pruned Model**:
+5. **Save the Pruned Model**:
    Save the compressed model and tokenizer locally:
    ```python
    llama_copy_to_compress.save_pretrained("output_path/pruned_model")
    tokenizer.save_pretrained("output_path/pruned_model")
    ```
 
-7. **Upload the Model** (optional):
+6. **Upload the Model** (optional):
    Publish the pruned model to Hugging Face Hub:
    ```python
    from huggingface_hub import HfApi
