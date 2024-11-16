@@ -1,6 +1,6 @@
 # LaCo Pruning
 
-This repository contains the code to reproduce the results mentioned in the [LaCo paper](https://arxiv.org/pdf/2402.11187). Developed as a part of the Assignment 3 for the [CMU ANLP Course 11-711](https://www.phontron.com/class/anlp-fall2024/)
+This repository contains the code to reproduce the results mentioned in the [LaCo paper](https://arxiv.org/pdf/2402.11187). This was developed as a part of the Assignment 3 for the [CMU ANLP Course 11-711](https://www.phontron.com/class/anlp-fall2024/)
 
 ## Components
 - **Prune**: Loads the model from HuggingFace, then prunes the model weights, and pushes the model architecture and weights to HuggingFace for easier inference and analysis. [Link](https://github.com/YashwanthYS/11711_LaCo_Pruning/tree/main/prune)
@@ -16,7 +16,7 @@ This repository contains the code to reproduce the results mentioned in the [LaC
   <img src="https://github.com/YashwanthYS/11711_LaCo_Pruning/blob/main/imgs/LaCo_prune.png" alt="Pruning Pipeline" width="700"/>
 
 
-For pruning, we have adapted the code for our use based on the author's official code implementation [LaCo](https://github.com/yangyifei729/laco).
+For pruning, we adapted the code for our use based on the author's official code implementation [LaCo](https://github.com/yangyifei729/laco).
 
 ### Steps to Reproduce
 You can refer to the [notebook](https://github.com/YashwanthYS/11711_LaCo_Pruning/blob/main/prune/Llama2_7b_LaCo.ipynb) which prunes the LLaMa2-7B model based on the hyperparameters used in the paper.
