@@ -1,6 +1,6 @@
 # LaCo Pruning
 
-This repository contains the code to reproduce the results mentioned in the [LaCo paper](https://arxiv.org/pdf/2402.11187).
+This repository contains the code to reproduce the results mentioned in the [LaCo paper](https://arxiv.org/pdf/2402.11187). Developed as a part of the Assignment 3 for the [CMU ANLP Course 11-711](https://www.phontron.com/class/anlp-fall2024/)
 
 ## Components
 - **Prune**: Loads the model from HuggingFace, then prunes the model weights, and pushes the model architecture and weights to HuggingFace for easier inference and analysis. [Link](https://github.com/YashwanthYS/11711_LaCo_Pruning/tree/main/prune)
