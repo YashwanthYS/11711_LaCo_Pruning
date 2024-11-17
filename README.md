@@ -1,4 +1,4 @@
-# LaCo Pruning
+# LaCo: Large Language Model Pruning via Layer Collapse
 
 This repository contains the code to reproduce the results mentioned in the [LaCo paper](https://arxiv.org/pdf/2402.11187). This was developed as a part of the Assignment 3 for the [CMU ANLP Course 11-711](https://www.phontron.com/class/anlp-fall2024/)
 
